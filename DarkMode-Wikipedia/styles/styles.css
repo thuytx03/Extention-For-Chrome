@@ -1,0 +1,21 @@
+body[theme="dark"]{
+    --body-bg-color:#292929;
+    --main-bg-color:#333333;
+    --title-text-color:#ffffff;
+    --main-text-color:#c7c7c7;
+    background-color: var(--body-bg-color) !important;
+}
+.mw-mf-viewport, .mw-body,.main-header,.main-header__bottom,
+.main-box__header , .content-improvement-invitation, .content-improvement-item, .post-content,.mw-footer , input,
+.main-box, .header-container, .contentsPage__title, .contentsPage__section, #vector-toc, .cdx-text-input__input, .cdx-search-input__end-button, a{
+    background-color:var(--main-bg-color) !important;
+}
+h1, h2, h3, h4, h5, h6, .contentsPage__title p{
+    color:var(--title-text-color) !important;
+}
+p, div, span, button{
+    color:var(--main-text-color) !important;
+}
+a{
+    color:var(--title-text-color) !important;
+}
